@@ -3,6 +3,7 @@
 #include "commit.h"
 #include "config.h"
 #include "graph.h"
+#include "log-tree.h"
 #include "revision.h"
 
 int main(void) {

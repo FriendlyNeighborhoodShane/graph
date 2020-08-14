@@ -1,7 +1,7 @@
 .POSIX:
 
 PREFIX       = $(HOME)
-ALL_WARNINGS = -Wall -Wextra -pedantic -Wmissing-prototypes -Wstrict-prototypes
+ALL_WARNINGS =
 ALL_CFLAGS   = $(ALL_WARNINGS) -O3 $(CFLAGS) $(CPPFLAGS)
 
 OBJ = graph.o main.o
