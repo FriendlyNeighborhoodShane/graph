@@ -4,7 +4,7 @@ PREFIX       = $(HOME)
 ALL_WARNINGS =
 ALL_CFLAGS   = $(ALL_WARNINGS) -O3 $(CFLAGS) $(CPPFLAGS)
 
-OBJ = graph.o main.o
+OBJ = graph.o main.o strbuf.o wrapper.o
 HDR = graph.h
 
 .c.o:
